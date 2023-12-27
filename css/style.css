@@ -1,0 +1,11 @@
+.text-bar {
+  animation: textBar 0.5s linear alternate infinite;
+}
+@keyframes textBar {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
