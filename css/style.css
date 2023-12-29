@@ -1,5 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url('../assets/br-programer.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Tsukimi Rounded', sans-serif;
+}
+.container {
+  width: 100%;
+  background-color: #03152b;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.5);
+}
+h1 {
+  text-align: center;
+  padding: 40px 0;
+  color: #fafafa;
+}
 .text-bar {
-  animation: textBar 0.5s linear alternate infinite;
+  background-color: #fafafa;
+  width: 3px;
+  margin-left: 2px;
+  animation: textBar 0.4s linear alternate infinite;
 }
 @keyframes textBar {
   from {
