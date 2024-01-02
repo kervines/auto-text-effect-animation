@@ -1,5 +1,5 @@
 const autoText = document.querySelector('[data-text]');
-const texts = ['a Programmer', 'a Developer FrontEnd', '@kervines.dev'];
+const texts = ['a Programmer', 'a FrontEnd Developer', '@kervines.dev'];
 let charIndex = 0;
 let textArrayIndex = 0;
 
